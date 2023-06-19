@@ -3,7 +3,7 @@ import {FaHome} from "react-icons/fa";
 import {TbDeviceGamepad2} from "react-icons/tb";
 import {BsChatTextFill} from "react-icons/bs";
 import {RiNotification4Line,RiNewspaperLine} from "react-icons/ri";
-import {MdCreate, MdImportExport} from "react-icons/md";
+import {MdCreate} from "react-icons/md";
 
 const Header = () => {
   return (
@@ -18,14 +18,14 @@ const Header = () => {
           />
         </div>
         <div className="flex flex-around ml-2">
-            <a href="#"><FaHome size={30} className="mr-20"/></a>
-            <a href="#"><RiNewspaperLine size={30} className="mr-20"/></a>
-            <a href="#"><TbDeviceGamepad2 size={30} className="mr-20"/></a>
-            <a href="#"><BsChatTextFill size={30} className="mr-20"/></a>
-            <a href="#"><RiNotification4Line size={30} className="mr-20"/></a>
+            <button><FaHome size={30} className="mr-20"/></button>
+            <button href="#"><RiNewspaperLine size={30} className="mr-20"/></button>
+            <button href="#"><TbDeviceGamepad2 size={30} className="mr-20"/></button>
+            <button href="#"><BsChatTextFill size={30} className="mr-20"/></button>
+            <button href="#"><RiNotification4Line size={30} className="mr-20"/></button>
         </div>
         <div className="flex w-80 ml-10">
-            <a href="#"><MdCreate size={30} className="mx-2 "/></a>          
+            <button href="#"><MdCreate size={30} className="mx-2 "/></button>          
             <button className="h-8 w-15 bg-yellow-500  px-3 rounded-md ml-5">Log In</button>
             <button className="h-8 w-15 bg-yellow-500 px-3 rounded-md ml-5">Sign up</button>
         </div>
